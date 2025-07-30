@@ -12,10 +12,10 @@ import os
 from aiohttp import web
 
 # === НАСТРОЙКИ ИЗ ПЕРЕМЕННЫХ ОКРУЖЕНИЯ ===
-BOT_TOKEN = os.getenv("BOT_TOKEN")
-ADMIN_ID = int(os.getenv("ADMIN_ID"))
-CHANNEL_ID = int(os.getenv("CHANNEL_ID"))
-CHANNEL_USERNAME = os.getenv("CHANNEL_USERNAME")
+BOT_TOKEN = os.getenv("8246831652:AAFRB6Qybun4GNXHDWllyEq_yvn6DObLSh8")
+ADMIN_ID = int(os.getenv("1235789985"))
+CHANNEL_ID = int(os.getenv("-1002389662159"))
+CHANNEL_USERNAME = os.getenv("crum_online")
 
 # === НАСТРОЙКА БАЗЫ ДАННЫХ ===
 DATABASE_URL = "sqlite+aiosqlite:///./giveaways.db"
